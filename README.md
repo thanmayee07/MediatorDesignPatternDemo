@@ -29,24 +29,24 @@ Approach:
 
 1.IMediator (Interface):
 - Dependencies: None (since it's an interface)
-- Implemented by:
+- Implemented by:\
        - Mediator (Class): Represents the implementation of the IMediator interface.
 
 2.Customer (Class):
-- Dependencies:
+- Dependencies:\
        -IMediator: Customer relies on the IMediator interface for communication with the mediator.
-- Association:
+- Association:\
        -Mediator: Customer has a relationship with the Mediator class, indicating that it interacts with the mediator.
 
 3.OrderProcessor (Class):
-- Dependencies:
+- Dependencies:\
        -IMediator: OrderProcessor relies on the IMediator interface for communication with the mediator.
-- Association:
+- Association:\
        -Mediator: OrderProcessor has a relationship with the Mediator class, indicating that it interacts with the mediator.
 
 4.Program (Class):
 - Dependencies: None (it's the entry point of your application)
-- Associations:
+- Associations:\
        -Mediator: Program creates an instance of the Mediator class.
 
 
