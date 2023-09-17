@@ -27,6 +27,28 @@ Approach:
   # Design
  ![IMG_20230918_012156](https://github.com/thanmayee07/MediatorDesignPatternDemo/assets/114472443/87afc8ac-414d-4f44-bad6-3e032ee671af)
 
+1.IMediator (Interface):
+- Dependencies: None (since it's an interface)
+- Implemented by:
+       - Mediator (Class): Represents the implementation of the IMediator interface.
+
+2.Customer (Class):
+- Dependencies:
+       -IMediator: Customer relies on the IMediator interface for communication with the mediator.
+- Association:
+       -Mediator: Customer has a relationship with the Mediator class, indicating that it interacts with the mediator.
+
+3.OrderProcessor (Class):
+- Dependencies:
+       -IMediator: OrderProcessor relies on the IMediator interface for communication with the mediator.
+- Association:
+       -Mediator: OrderProcessor has a relationship with the Mediator class, indicating that it interacts with the mediator.
+
+4.Program (Class):
+- Dependencies: None (it's the entry point of your application)
+- Associations:
+       -Mediator: Program creates an instance of the Mediator class.
+
 
 # Environment
 The project builds and runs with Visual Studio Community 2022.
