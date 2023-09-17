@@ -16,6 +16,7 @@ The Mediator design pattern finds practical applications in solving real-world p
 
 # Overview and Approach
 This project demonstrates the Mediator design pattern to manage customer orders and order processors efficiently. It streamlines order placement and centralizes communication.
+
 Approach:
 - Customers initiate orders.
 - A centralized mediator manages communication.
