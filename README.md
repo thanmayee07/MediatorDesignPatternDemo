@@ -25,6 +25,7 @@ Approach:
 - Error handling ensures robustness.
 
   # Design
+ ![IMG_20230918_012156](https://github.com/thanmayee07/MediatorDesignPatternDemo/assets/114472443/87afc8ac-414d-4f44-bad6-3e032ee671af)
 
 
 # Environment
