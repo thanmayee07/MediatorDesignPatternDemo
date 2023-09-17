@@ -34,6 +34,7 @@ namespace UnitTests
         }
 
         [TestMethod]
+        // This test should output "Fail" as we are not placing any order
         public void TestMethod2()
         {
             // Arrange
