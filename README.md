@@ -24,6 +24,8 @@ Approach:
 - Real-time order status updates are provided.
 - Error handling ensures robustness.
 
+  # Design
+
 
 # Environment
 The project builds and runs with Visual Studio Community 2022.
