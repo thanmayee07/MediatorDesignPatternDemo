@@ -23,3 +23,7 @@ Approach:
 - Orders are routed to the appropriate processor.
 - Real-time order status updates are provided.
 - Error handling ensures robustness.
+
+
+# Environment
+The project builds and runs with Visual Studio Community 2022.
