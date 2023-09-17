@@ -11,3 +11,5 @@ BENEFITS OF MEDIATOR PATTERN
 2. Promotes Reusability
 3. Centralized Control
 4. Enhances Maintainability
+
+The Mediator design pattern finds practical applications in solving real-world problems, one of which is the Order Processing system. The aim is to build a basic order processing system where customers can place orders, and order processors communicate through a central mediator to fulfil these orders.
