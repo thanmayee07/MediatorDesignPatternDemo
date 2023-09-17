@@ -4,9 +4,9 @@ The Mediator design pattern is a behavioural pattern that promotes loose couplin
 
 # Key Components
 Mediator: The central component that facilitates communication between objects. It references all objects that need to interact and defines methods to coordinate their communication.\
-Colleague Objects: These objects interact with each other through the mediator. Colleague objects are unaware of each other and rely on the mediator to relay messages.\
+Colleague Objects: These objects interact with each other through the mediator. Colleague objects are unaware of each other and rely on the mediator to relay messages.
 
-BENEFITS OF MEDIATOR PATTERN\
+BENEFITS OF MEDIATOR PATTERN
 1. Decouples Components
 2. Promotes Reusability
 3. Centralized Control
