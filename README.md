@@ -34,20 +34,20 @@ Approach:
 
 2.Customer (Class):
 - Dependencies:\
-       -IMediator: Customer relies on the IMediator interface for communication with the mediator.
+       - IMediator: Customer relies on the IMediator interface for communication with the mediator.
 - Association:\
-       -Mediator: Customer has a relationship with the Mediator class, indicating that it interacts with the mediator.
+       - Mediator: Customer has a relationship with the Mediator class, indicating that it interacts with the mediator.
 
 3.OrderProcessor (Class):
 - Dependencies:\
-       -IMediator: OrderProcessor relies on the IMediator interface for communication with the mediator.
+       - IMediator: OrderProcessor relies on the IMediator interface for communication with the mediator.
 - Association:\
-       -Mediator: OrderProcessor has a relationship with the Mediator class, indicating that it interacts with the mediator.
+       - Mediator: OrderProcessor has a relationship with the Mediator class, indicating that it interacts with the mediator.
 
 4.Program (Class):
 - Dependencies: None (it's the entry point of your application)
 - Associations:\
-       -Mediator: Program creates an instance of the Mediator class.
+       - Mediator: Program creates an instance of the Mediator class.
 
 
 # Environment
