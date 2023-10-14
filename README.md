@@ -1,4 +1,5 @@
-# Mediator-Design-Pattern
+# OrderProcessingSystem
+- MediatorDesignPatternDemo
 
 The Mediator design pattern is a behavioural pattern that promotes loose coupling among objects by centralizing their communication. In this pattern, instead of objects directly interacting with each other, they communicate through a central mediator. This mediator encapsulates the interactions between objects and helps reduce dependencies between them.
 
